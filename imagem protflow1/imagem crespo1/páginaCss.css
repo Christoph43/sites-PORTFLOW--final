@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*iniciando a edição da header*/
+header{
+    width: 100%;
+    height: 4.6em;
+    position: fixed;
+    z-index: 1;
+    background-color:#FFFFFF;
+}
+#spaNoi{
+    width: 7em;
+    height: 4em;
+    margin-left:5em ;
+    padding-top: 0.9em;
+}
+.logoo{
+width: 5.5em;
+
+}
+/* editando a primeira lista da header*/
+.primeiraLiista{
+    display: flex;
+    justify-content: space-evenly;
+    width: 67%;
+    position: absolute;
+    left:13em;
+    top:1.8em;
+    padding-right: 14em;
+    color: #9767A9;    
+}
+.dadoOne{
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16.9px;
+}
+.negritoLista{
+    list-style: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16.9px;
+    font-weight: 800;
+}
+/*editando campo de busca e icones*/
+label{
+    width: 10rem;
+    height: 2em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -2.5em;
+    margin-left: 56em;
+        
+}
+.pesquisaHeade{
+    width: 12em;
+    height: 2em;
+    border-radius:13px;
+    padding-left: 3em;
+    border: 2px solid #9767A9;
+   
+}
+.reDes{
+    width: 9em;
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left:68em ;
+    margin-top: -5.5rem;
+    list-style: none;
+}
+.reDess{
+width: 32px;
+}
+.lips{
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top:-1.6em;
+    padding-right: 20.7em;
+}
+.lups{
+    width: 20px;
+}
+/*iniciando a edição da main*/
+main{
+    width: 100%;
+    height: 210em;
+ 
+}
+.primeIra{
+    width: 78em;
+    height: 36em;
+   
+}
+.leTraone{
+    font-family: Playfair Display, Roman;
+    color: #FFFFFF;
+    font-size: 4.7rem;
+    font-weight: 600;
+    width: 5em;
+    margin-left: 2.5em;
+    margin-top: -4.4em;
+    
+}
+.leTratwo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFFFFF;
+    font-size: 26px;
+    width: 10em;
+    font-weight: 0;
+    margin-left: 30.4em;
+    margin-top: -4.4em;
+    opacity: 1;
+}
+.seGunda{
+    background-color: #9767A9;    
+    width: 99%;
+    height: 15em;
+    position: absolute;
+    z-index: -1;
+}
+.paraHra{
+    width: 50%;
+    height: 8em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    padding-left: 3.7em;
+    padding-top: 30px;
+    opacity: 0.9;
+}
+.paraHratwo{
+    width: 39.2%;
+    height: 3em;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-left: 42em;
+    margin-top: -12em;
+    opacity: 0.5;
+}
+
+/*Primeira caixa de imagem*/ 
+.imaGem{
+    width: 78vh;
+    height: 24em;
+    margin-top: 12em;
+    margin-left: 6.7em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoOne{
+    width: 22em;
+    height: 18.5em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 13em;
+    margin-top: 30em;
+    background-color: #9767A9;
+}
+.quadradoTWoo{
+    width: 12em;
+    padding-right: 2.9rem; 
+    font-family: Playfair Display, Roman;
+    font-size: 23px;
+    color: #FFFFFF;
+
+  
+}
+.paraGGrafo{
+    color: #FFFFFF;
+    width: 21em;
+    padding-right: 7px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    opacity: 0.6;
+   
+}
+
+/*Segunda caixa de imagem*/
+.imaGem2{
+    width: 70vh;
+    height: 24em;
+    margin-left: 41em;
+    margin-top: -21.3em;
+    position: absolute;
+    z-index: -1;
+   
+}
+.quaDradoTwwooo{
+    width: 19em;
+    height: 15em;
+    margin-top: -4.1em;
+    margin-left:45.6em ;
+    display: flex;
+    flex-flow: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #9767A9;
+}
+.quadradoThree{
+    width: 18em;
+    padding-right: 1rem;
+    margin-top: 5px;
+    font-family: Playfair Display, Roman;
+    font-size: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.paraGGrafo2{
+    color: #FFFFFF;
+    width: 20em;
+    height: 14em;
+    margin-left: 3px;
+    margin-top: 6px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 13.5px;
+    opacity: 0.6;
+}
+
+/*Terceira caixa de imagem*/
+.imaGem3{
+    width: 78vh;
+    height: 24em;
+    margin-left: 6.7em;
+    margin-top: -8.2em;
+    position: absolute;
+    z-index: -1;
+}
+.quaDradoThere{
+    width: 20em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 13em;
+    margin-top: 7.4em;
+    background-color: #9767A9;
+}
+.quadradoTres{
+    width: 10em;
+    padding-right: 4rem;
+    font-family: Playfair Display, Roman;
+    font-size: 27px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.paraGGrafo3{
+    color: #FFFFFF;
+    width: 20em;
+    padding: 9px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+/*Quarta caixa de imagem*/
+.imaGem4{
+    width: 70vh;
+    margin-left: 41em;
+    height: 24em;
+    margin-top: -18.5em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoFour{
+    width: 20em;
+    height: 12.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 45.4em;
+    margin-top: 4.2em;
+    background-color: #9767A9;
+}
+.quadradoQuatro{
+    width: 13em;
+    padding-left: -17px;
+    text-align: center;
+    font-family: Playfair Display, Roman;
+    font-size: 23.7px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo4{
+    color: #FFFFFF;
+    width: 20em;
+    padding: 1px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 14px;
+    opacity: 0.6;
+ }
+
+/*Quinta caixa de imagem*/
+
+ .imaGem5{
+    width: 78vh;
+    height: 24em;
+    margin-left: 6.7em;
+    margin-top: -11.4em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoFive{
+    width: 21.9em;
+    height: 14.6em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 12em;
+    margin-top: 5.8em;
+    background-color: #9767A9;
+}
+.quadradoCinco{
+    width: 13em;
+    padding-left: 4px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo5{
+    color: #FFFFFF;
+    width: 20em;
+    margin-top:-0.5em;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+
+
+ /*Sexta caixa de imagem*/
+ .imaGem6{
+    width: 70vh;
+    height: 22em;
+    margin-left: 41em;
+    margin-top: -18.7em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoSix{
+    width: 21.9em;
+    height: 11.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 45em;
+    margin-top: 0.6em;
+    background-color: #9767A9;
+}
+.quadradoSeis{
+    width: 13em;
+    padding-left: 4px;
+    padding-top: 5px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo6{
+    color: #FFFFFF;
+    width: 20em;
+    padding-bottom:10px;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+
+ /*Setima caixa de imagem*/
+
+ .imaGem7{
+    width: 78vh;
+    height: 24em;
+    margin-left: 6.7em;
+    margin-top: -11.4em;
+    position: absolute;
+    z-index: -1;
+
+}
+.quaDradoSeven{
+    width: 21.9em;
+    height: 11em;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 12em;
+    margin-top: 5.8em;
+    background-color: #9767A9;
+}
+.quadradoSete{
+    width: 13em;
+    padding-left: 4px;
+    text-align: justify;
+    font-family: Playfair Display, Roman;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+.paraGGrafo7{
+    color: #FFFFFF;
+    width: 20em;
+    margin-top:-0.5em;
+    text-align: justify;
+    font-family: Montserrat;
+    font-size: 15px;
+    opacity: 0.6;
+ }
+/*Oitava imagem*/
+ .cobrAs{
+    width: 100%;
+    height: 20rem;
+    margin-top: -20em;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+padding: 5.6em;    
+
+ }
+ .imaGem8{
+    width: 69vh;
+   
+ 
+ }
+
+
+ /*FOTOS GRUPOS*/
+ .sessaoTres{
+    width: 100%;
+    height: 50em;
+    
+ }
+
+ .container{
+    width: 100%;
+    height: 20em;
+
+ }
+ .campoUm{
+    width: 37%;
+    height: 39em;
+    position: absolute;
+    left: 6.5em;
+    top: 188em;
+    display: flex;
+    flex-direction: column wrap;
+    
+ }
+ /*editando as imagens */
+ .ImagemUm{
+    width: 37vh;
+    height: 25em;
+ }
+ .ImagemDois{
+    width: 31.8vh;
+    height: 30vh;
+    padding-left: 12px;
+ }
+.ImagemTres{
+    width: 30.2vh;
+    height: 30vh;
+    position: absolute;
+    top:12.8em;
+    left: 15.5em;
+}
+.ImagemQuatro{
+    width: 30.2vh;
+    height: 22.6vh;
+    position: absolute;
+    top:26em;
+    left: 15.5em;
+}
+.ImagemCinco{
+    width: 37vh;
+    height: 22.6vh;
+    position: absolute;
+    top:26em;
+    left: 0;
+}
+ /*editando as imagens */
+
+.campoDois{
+    width: 50%;
+    height: 39em;
+    position: absolute;
+    left: 34.8em;
+    top: 188em;
+    display: flex;
+    flex-direction: column wrap;
+
+}
+.ImagemDez{
+    width: 30vh;
+    height: 62vh;
+}
+.ImagemNove{
+    width: 26vh;
+    height: 27.7vh;
+    position: absolute;
+    left: 26.8em;
+   
+}
+.ImagemOito{
+    width: 26vh;
+    height: 23.2em;
+    margin-left: 10px;
+    margin-top: 11.8em;
+}
+.ImagemSete{
+    width: 34vh;
+    height: 35em;
+    margin-left: 10px;
+
+}
+.ImagemSeis{
+    width: 30vh;
+    height: 22.7vh;
+    position: absolute;
+    top: 26em;
+}
+
+
+
+
+ /*Footer*/
+ footer{
+    width: 100%;
+    height: 6rem;
+    position: absolute;
+    top: 226em;
+    left:0;
+    background-color: #9767A9;
+ }
+.texTofoter{
+  position: absolute;
+  top: 30px;
+  left: 0;  
+}
+ .texTofoter p{
+    width: 52.9em;
+    height: 20px;
+    text-align:left ;
+    font-size:14px;
+    font-family:Montserrat;
+    padding-left: 6.7em;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+/* campo de interação a páginas*/
+ .maeLista{
+    width: 27%;
+    height: 4em;
+    position: relative;
+    left: 50em;
+    top: 1em;   
+ }
+ .maeLista li{
+    display:inline-block;
+    width: 5px;
+    padding-right: 7.5em;
+    list-style: none;
+ }
+ .maeLista li img{
+    width: 2.6em;
+    height: 2.8em;
+    margin-top: 10px;
+ }
+ .maeLista li p{
+     width: 7.6em;
+     display: inline;
+     font-family: Montserrat;
+     font-size: 14px;
+     color: #FFFFFF;
+     position: absolute;
+     top: 7px;
+     letter-spacing: 1px;
+     line-height: 18.7px;
+     padding-left: 3.7em;
+ }
+#utimaIcon{    
+  position: absolute;
+  right: 3.2em;
+  top: -1px;
+ }
+ .utimo{
+    position: absolute;
+    right: -0.8em;
+    top: 1px;
+ }
